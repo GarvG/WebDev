@@ -1,19 +1,21 @@
 
-h1{
-color: aqua;
-font-size: 50px;
-background-color: blanchedalmond;
-border: 10px solid black;
-padding: 10px;            
-}
+.first
+{
+    font-size: 40px;
+    color:blueviolet;
+    background-color: azure;
+    border: 2px solid black;
 
-p{
-color: blueviolet;
-font-size: 50px;
-background-color: darkgrey;
-border: 10px solid black;
-padding: 10px;
-margin: 20px 20px 20px 20px;
 }
-
-    
+#second{
+    font-size: 40px;
+    color:wheat;
+    background-color:rosybrown;
+    border: 2px solid black;
+ 
+}    
+.third{
+    margin: 12px;
+    padding: 12px;
+    background-color: red;
+}
