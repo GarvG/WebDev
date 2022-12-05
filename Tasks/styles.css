@@ -1,14 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
 #Header {
     font-size: 17px;
     text-align: center;
     color:black;
     font-style: italic;
     background-color: #FFFBE9;
+    padding: 12px;
+    
 
+}
+#image{
+    text-align: center;
 }
 #Header-img{
     width: 550px;
-    height: 450px;
+    height: 390px;
     object-fit: contain;
     border-radius: 2px;
 }
@@ -22,13 +31,13 @@
 {
     font-size: 24px;
     text-align: center;
-    margin: 10px;
+    margin: 10px 0px 24px 0px;
 }
 #quote
 {
     font-size: 24px;
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-left: 10px;
+    padding-left: 50px;
     /* background-color: black;
     color: white; */
 
@@ -36,6 +45,19 @@
  small{
     font-size: x-small;
 }
+#quotepara{
+font-size: 20px;
+padding: 10px 50px; 
+}
 #content-details{
     padding: 10px;
+}
+#Footer
+{
+    background-color: darkgrey;
+    text-align: right;
+    font-size: 24px;
+    padding-right: 10px;
+    height: 90px;
+    
 }
