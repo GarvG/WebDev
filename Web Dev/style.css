@@ -19,3 +19,17 @@
     padding: 12px;
     background-color: red;
 }
+table,th,tr{
+    border: 2px solid black;
+    font-size: 20px;
+    border-radius: 10px;
+    /* border-collapse: collapse; */
+
+}
+th,tr,td{
+    background-color: aqua;
+}
+table{
+    width: 100%;
+    
+}
