@@ -33,7 +33,29 @@ table{
     width: 100%;
     
 } */
-
+/* 
 #batch{
     
-}
+} */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:hotpink;
+    /* font-size: 40px;
+    transition: 0.6s; */
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+    font-size: 40px;
+    transition: 0.6s;
+  }
