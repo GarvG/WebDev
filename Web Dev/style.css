@@ -37,25 +37,30 @@ table{
 #batch{
     
 } */
-a:link {
+/* a:link {
     color: red;
   }
   
   /* visited link */
-  a:visited {
+  /* a:visited {
     color: green;
-  }
+  } */
   
   /* mouse over link */
-  a:hover {
+  /* a:hover {
     color:hotpink;
     /* font-size: 40px;
     transition: 0.6s; */
-  }
+  
   
   /* selected link */
-  a:active {
+  /* a:active {
     color: blue;
     font-size: 40px;
     transition: 0.6s;
+  } */ 
+  div~p
+  {
+    color:red;
+    background-color: yellow;
   }
