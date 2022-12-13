@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dosis', sans-serif;
+   
+   
+}
+.header{
+    color: black;
+    height: 9rem;
+    font-size: 50px;
+    text-align: center;
+    background-color: #F6D7A7;
+  
+}
+.header>h3
+{
+
+    font-size: 40px;
+}
+.header>small
+{
+    position: relative;
+    left: 100px;
+}
+.main-content
+{
+    display: flex;
+    justify-content: space-evenly;
+    height:40rem;
+    background-color: #87AAAA;
+    color: white;
+    
+    
+}
+.main-content>.birthplace
+{
+    margin: 2rem;
+    height: 28rem;
+    width: 20rem;
+    background-color:#3E3636;
+    border-radius: 10px; 
+    
+}
+hr{
+    size: 10px;
+}
+.images>img
+{
+   border-radius: 10px;
+    height: 13rem;
+    width: 20rem;
+    object-fit: cover;
+
+}
+.bp-Content{
+    text-align: center;
+    padding: 10px;
+}
+.bp-Content>h3
+{
+    margin-top: 5px;
+    text-align: center ;
+}
+.bp-Content>p
+{
+    margin-bottom:10px;
+}
+
+
+.main-content>.About-me
+{
+    margin: 2rem;
+    height: 28rem;
+    width: 20rem;
+    background-color:#3E3636;
+    border-radius: 10px;    
+}
+.birthplace:hover{
+    transform: scale(1.1);
+    /* box-shadow:5px 10px aqua; */
+    cursor: pointer;
+}
