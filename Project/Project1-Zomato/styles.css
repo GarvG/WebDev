@@ -14,13 +14,11 @@ header{
     position: relative;
     object-fit: cover;
     margin-bottom: 2rem;
-
-
 }
 .header-img{
     width: 100%;
     position: absolute;
-    bottom:20vh;
+    top:-10vh;
     z-index: -1;
 }
 .header-img img{
@@ -66,11 +64,13 @@ header{
     padding: 5px 4px;
 
 }
+
 .search .search-item{
     display: flex;
     align-items: center;
     margin-left: 10px;
 }
+
 .search .search-item p{
     color:gray;
     border-right: 1px solid gray;
@@ -82,9 +82,10 @@ header{
 .search .search-item input{
     outline: none;
     border: none;
-    width: 200%;
+    /* width: 200%; */
     padding-left: 10px;
     font-size: 20px;
+   
 
 }
 .search .search-item input:first-child{
@@ -93,10 +94,12 @@ header{
 }
 
 .search .search-item input:last-child{
-    width: 70%;
+    /* width: 70%; */
+    width: 20rem;
     color:gray;
     
 }
+
 .section-1
 {
     display: flex;
@@ -104,6 +107,7 @@ header{
     align-items: center;
     margin-bottom: 4rem;
 }
+
 .section-1 .section-1-item{
     position: relative;
     width: 15rem;
@@ -111,14 +115,16 @@ header{
     overflow: hidden;
     border-radius: 10px;
     background-color: white;
-    border:1px solid rgba()
+    border:1px solid rgba();
 }
+
 .section-1 .section-1-item img{
     width: 100%;
     border: 1px solid rgba(228,228,228,0.838);
     z-index: -1;
     border-radius: 15px;
 }
+
 .section-1 .search-item .items-details{
     position: absolute;
     bottom: 3px;
@@ -128,28 +134,33 @@ header{
     width: 100%;
     height: 25%;
     z-index: 2;
+
 }
+
 .section-1 .search-item .items-details p{
     font-size: 1.2rem;
     letter-spacing: 0.7px;
     text-align: center;
 }
+
 .section-1 .search-item:hover{
     box-shadow:0px 1px 2px rgba(207,207,207,0.5);
     transition: all .1s;
 }
+
 .section-2
 {
     width: 1080px;
     margin: 0 auto;
     margin-bottom: 4rem;
-
 }
+
 .section-2-heading{
     font-size:2rem;
     line-height: 1.2;
     font-weight: 400;
 }
+
 .section-2-container{
    
     display: flex;
@@ -162,12 +173,14 @@ header{
     max-width: 26%;
     margin-bottom: 20px;
 }
+
 .section-2-item{
     border-radius: 10px;
     box-shadow: 0 2px 4px rgb(236,236,236);
     padding: 20px;
 
 }
+
 .section-2-item .item-head
 {
     font-size: 1.2rem;
