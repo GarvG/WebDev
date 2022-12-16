@@ -5,6 +5,7 @@ body{
     padding: 0px;
     text-decoration: none;
     font-family: 'popins',sans-serif;
+
 }
 
 header{
@@ -219,4 +220,22 @@ header{
 }
 .section-3-download img{
     width: 40%;
+}
+@media screen and (max-width: 900px) {
+
+.section-2-heading {
+color:blue;
+}
+.header-img{
+    width: 100%;
+    position: absolute;
+    top:-10vh;
+    z-index: -1;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
 }
