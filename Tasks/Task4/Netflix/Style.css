@@ -6,7 +6,7 @@
 }
 header{
     width: 100%;
-    height: 80vh;
+    height: 94vh;
     position: relative;
     overflow: hidden;
     
@@ -76,20 +76,66 @@ header{
 
     width: 100%;
     position: absolute;
-    top:-10vh;
+    top:0vh;
     z-index: -1;
 }
 .header-center-img img{
     width: 100%;
 }
 section
-{       height: 50vh;
+{       height: 125vh;
     width: 100%;
     background-color: black;
 }
 .section-1{
    padding-top: 2rem;
-    color: white;
+    color: grey;
     display: flex;
     justify-content: space-evenly;
+}
+.section-1 p{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+hr{
+    color: gray;
+    font-size: 1rem;
+}
+.content-container{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-bottom: 5rem;
+}
+.content-container p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+.content-container button{
+    background-color: red;
+    font-size: 1.4rem;
+    padding: 14px 10px;
+    color: white;
+}
+.content-img{
+    object-fit: cover;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-container p
+{
+    color:grey;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    padding: 4px 0px 12px 0px;
+}
+.footer-start{
+    display: flex;
+    margin-left: 13%;
+    margin-bottom: 1rem;
+    color: gray;
 }
