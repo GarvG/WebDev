@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    width: 100%;
+    height: 94vh;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.header-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.netflix-logo{
+    width: 20%;
+    height: 20%;
+}
+.header-button{
+ 
+    position: absolute;
+    top:5%;
+    left:90%;
+
+    
+}
+.header-btn{
+    border: 0;
+    padding: 4px 12px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    font-size: medium;
+}
+.center-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 7vh;
+}
+.center-section h2{
+    font-size: 4rem;
+    color:white;
+    font-style: italic;
+    margin: 14px 0px;
+
+}
+.center-section p{
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-bottom: 14px;
+    color: white;
+}
+
+.center-button{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.center-btn{
+    margin-top: 2rem;
+    font-size:2rem;
+    border: 0;
+    padding: 20px;
+    color:white;
+    background-color: red;
+
+}
+.header-center-img{
+
+    width: 100%;
+    position: absolute;
+    top:0vh;
+    z-index: -1;
+}
+.header-center-img img{
+    width: 100%;
+}
+section
+{       height: 125vh;
+    width: 100%;
+    background-color: black;
+}
+.section-1{
+   padding-top: 2rem;
+    color: grey;
+    display: flex;
+    justify-content: space-evenly;
+}
+.section-1 p{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+hr{
+    color: gray;
+    font-size: 1rem;
+}
+.content-container{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-bottom: 5rem;
+}
+.content-container p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+.content-container button{
+    background-color: red;
+    font-size: 1.4rem;
+    padding: 14px 10px;
+    color: white;
+}
+.content-img{
+    object-fit: cover;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-container p
+{
+    color:grey;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    padding: 4px 0px 12px 0px;
+}
+.footer-start{
+    display: flex;
+    margin-left: 13%;
+    margin-bottom: 1rem;
+    color: gray;
+}
