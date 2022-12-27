@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.row{
+    background-color:rebeccapurple;
+    border-radius: 30px;
+    box-shadow: 12px 12px 12px;
+    width: auto;
+    height: 37rem;
+
+}
+img{
+    width: 120%;
+    height: 37rem;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius:30px;
+
+}
+.login h1{
+    font-size: 4rem;
+    font-weight: 300;
+
+}
+.inp{
+    height: 50px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    box-shadow: 2px 5px 2px 5px rgba(0,0,0,0.35);
+}
+.btn1{
+width: 150px;
+height: 50px;
+border: none;
+outline: none;
+border-radius: 60px;
+background-color: rgb(155, 185, 225);
+
+}
+.btn1:hover{
+    background-color: honeydew;
+    transition: 0.5s;
+
+}
+.fa-brands{
+    padding: 10px;
+    font-size: 30px;
+
+}
+.fa-facebook:hover{
+  color:lightblue;  
+}
+.fa-instagram:hover{
+    color:lightpink;  
+  }
+  .fa-linkedin:hover{
+    color:deepskyblue;  
+  }
