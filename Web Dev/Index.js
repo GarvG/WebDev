@@ -48,20 +48,20 @@
 // for(let key in arr){
 //     console.log(key," : ",arr[key]);
 // }
-let myPromise = new Promise((myResolve, MyRejcet) => {
-    let myname = "Garv";
-    let Questionlength = 7;
-    if (myname.length == Questionlength) {
-        myResolve("YES WE MATCH");
-    } else {
-        MyRejcet("SORRY NAME DIDNOT MATCH THE REQUIRED LENGTH");
-    }
-});
-myPromise.then((val) => {
-    console.log(val);
-}, (err) => {
-    console.log(err);
-})
+// let myPromise = new Promise((myResolve, MyRejcet) => {
+//     let myname = "Garv";
+//     let Questionlength = 7;
+//     if (myname.length == Questionlength) {
+//         myResolve("YES WE MATCH");
+//     } else {
+//         MyRejcet("SORRY NAME DIDNOT MATCH THE REQUIRED LENGTH");
+//     }
+// });
+// myPromise.then((val) => {
+//     console.log(val);
+// }, (err) => {
+//     console.log(err);
+// })
 
 // async function my(){
 //     let name="garv";
@@ -74,9 +74,32 @@ myPromise.then((val) => {
 // }
 // my();
 
-const obj={
-    name:"harb",
-    age:12
-};
-let ans=JSON.stringify(obj)
-console.log(typeof(ans));
+// const obj={
+//     name:"harb",
+//     age:12
+// };
+// let ans=JSON.stringify(obj)
+// console.log(typeof(ans));
+
+
+let btn=document.querySelector("button");
+let count=0;
+btn.addEventListener("click",(e)=>{
+    count++;
+  
+    if(count%2!=0)
+    {   console.log("hi");
+        console.log(count);
+        let divE=document.createElement("div");
+        divE.innerText="HELLO!";
+        let body=document.querySelector("body");
+        body.appendChild(divE); 
+    }
+    else
+    {
+        let divE=document.removeChild("div");
+    }
+  
+    
+
+})
