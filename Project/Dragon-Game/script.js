@@ -83,13 +83,13 @@ setInterval(() => {
 
             setTimeout(()=>{
                 aniDur=parseFloat(window.getComputedStyle(obstacle,null).getPropertyValue('animation-duration'));    // Since we are the score is getting increase 
-                                                                                                                      // we want that our obstacle speed get increase
-                                                                                                                    // aniDur gives us the animation speed
+                                                                                                                  // we want that our obstacle speed get increase
+                                                                                                                 // aniDur gives us the animation speed
                                                                                                                     
-                newDur=aniDur - 0.1;                                                                                 // for making the obstacle speed up we are subtracting
-                                                                                                                    // 0.1s from the current animation and storing it in newDur
+                newDur=aniDur - 0.1;                                                                          // for making the obstacle speed up we are subtracting
+                                                                                                              // 0.1s from the current animation and storing it in newDur
 
-                obstacle.style.animationduration=newDur + 's';                                                      // and setting the obstacle animation duration with newDur
+                obstacle.style.animationduration=newDur + 's';                                                // and setting the obstacle animation duration with newDur
                 console.log("new Animation duration ",newDur)
             },500)
         }
