@@ -82,24 +82,22 @@
 // console.log(typeof(ans));
 
 
-let btn=document.querySelector("button");
-let count=0;
-btn.addEventListener("click",(e)=>{
-    count++;
+// let btn=document.querySelector("button");
+// let count=0;
+// btn.addEventListener("click",(e)=>{
+//     count++;
   
-    if(count%2!=0)
-    {   console.log("hi");
-        console.log(count);
-        let divE=document.createElement("div");
-        divE.innerText="HELLO!";
-        let body=document.querySelector("body");
-        body.appendChild(divE); 
-    }
-    else
-    {
-        let divE=document.removeChild("div");
-    }
-  
-    
-
-})
+//     if(count%2!=0)
+//     {   console.log("hi");
+//         console.log(count);
+//         let divE=document.createElement("div");
+//         divE.innerText="HELLO!";
+//         let body=document.querySelector("body");
+//         body.appendChild(divE); 
+//     }
+//     else
+//     {
+//         let divE=document.removeChild("div");
+//     }
+// })
+//document.getElementById("first").style.fontSize="x-large";
