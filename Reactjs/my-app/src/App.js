@@ -1,11 +1,12 @@
 import './App.css';
 
 //import Example from './Components/Example';
-import Class from './Components/Class';
+// import Class from './Components/Class';
+import First from './Components/First';
 function App() {
   return (
     <div className="App">
-      
+{/*       
       <Class name="A" hobby="GYM">
         <p>Welcome to DevTown!!</p>
       </Class>
@@ -14,7 +15,8 @@ function App() {
       </Class>
       <Class name="C" hobby="BasketBall">
         <h3>Congo!!!!</h3>
-      </Class>
+      </Class> */}
+<First/>
     
     </div>
   );
