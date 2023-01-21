@@ -1,14 +1,15 @@
 import React from "react";
 //import Greetings from "./Greetings";
-import Add from "./Components/Add";
-import Subtract from "./Components/Subtract";
-import Mutlipy from "./Components/Mutlipy";
-import Divide from "./Components/Divide";
+// import Add from "./Components/Add";
+// import Subtract from "./Components/Subtract";
+// import Mutlipy from "./Components/Mutlipy";
+// import Divide from "./Components/Divide";
+//import Timer from "./Components/Timer";
 function App() {
   return (
     <div className="App">
    {/* <Greetings/> */}
-   <ul>
+   {/* <ul>
     <li>
     The Addition of two number is  {Add(10,30)}
     </li>
@@ -21,10 +22,9 @@ function App() {
     <li>
     The Division of two number is  {Divide(10,40)}
     </li>
+   </ul> */}
  
-
-    
-   </ul>
+   {/* <Timer/> */}
  
     </div>
   );
