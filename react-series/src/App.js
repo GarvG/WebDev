@@ -5,9 +5,12 @@ import React from "react";
 // import Mutlipy from "./Components/Mutlipy";
 // import Divide from "./Components/Divide";
 //import Timer from "./Components/Timer";
+// import Colorchange from "./Components/Colorchange"
+import Forms from "./Components/Forms"
 function App() {
+ 
   return (
-    <div className="App">
+    <div >
    {/* <Greetings/> */}
    {/* <ul>
     <li>
@@ -25,7 +28,8 @@ function App() {
    </ul> */}
  
    {/* <Timer/> */}
- 
+  {/* <Colorchange/> */}
+ <Forms/>
     </div>
   );
 }
