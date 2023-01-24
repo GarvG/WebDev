@@ -18,6 +18,8 @@ const Forms=()=>{
             setwork(word)
         
         }}>Submit</button>
+
+        
         </div>
     )
 
