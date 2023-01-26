@@ -1,10 +1,11 @@
 import './App.css';
-
+import {StyledButton} from './Components/Button/Button.styles';
+import { FancyButton } from './Components/Button/Button.styles';
 //import Example from './Components/Example';
 // import Class from './Components/Class';
 //import First from './Components/First';
-import A from './Components/A';
-import EffectSecond from './Components/EffectSecond';
+// import A from './Components/A';
+// import EffectSecond from './Components/EffectSecond';
 function App() {
   return (
     <div className="App">
@@ -19,8 +20,17 @@ function App() {
         <h3>Congo!!!!</h3>
       </Class> */}
 {/* <First/> */}
-    <EffectSecond/>
-    <A/>
+    {/* <EffectSecond/>
+    <A/> */}
+    <StyledButton>Click Here</StyledButton>
+      <div>
+        <br />
+      </div>
+      <StyledButton variant='outline'>Click Here</StyledButton>
+      <div>
+        <br />
+      </div>
+      <FancyButton>Fancy Button</FancyButton>
     </div>
   );
 }
