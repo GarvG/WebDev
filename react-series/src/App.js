@@ -30,6 +30,7 @@ function App() {
    {/* <Timer/> */}
   {/* <Colorchange/> */}
  <Forms/>
+ <Forms></Forms>
     </div>
   );
 }
