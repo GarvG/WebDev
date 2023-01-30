@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css"
 //import Greetings from "./Greetings";
 // import Add from "./Components/Add";
 // import Subtract from "./Components/Subtract";
@@ -6,7 +7,14 @@ import React from "react";
 // import Divide from "./Components/Divide";
 //import Timer from "./Components/Timer";
 // import Colorchange from "./Components/Colorchange"
-import Forms from "./Components/Forms"
+// import Forms from "./Components/Forms"
+// import {BroswerRouter, Route, Routes} from "react-router-dom"
+import {BrowserRouter,Route,Routes} from "react-router-dom"
+import Home from "./Pages/home";
+import Contact from "./Pages/contact";
+import About from "./Pages/about";
+import Error from "./Pages/Error";
+
 function App() {
  
   return (
@@ -29,8 +37,20 @@ function App() {
  
    {/* <Timer/> */}
   {/* <Colorchange/> */}
- <Forms/>
- <Forms></Forms>
+ {/* <Forms/>
+ <Forms></Forms> */}
+      <BrowserRouter>
+        
+          <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="about" element={<About/>}/>
+          <Route path="contact" element={<Contact/>}/>
+          <Route path="*" element={<Error/>}/>
+
+
+          </Routes>
+        
+      </BrowserRouter>
     </div>
   );
 }
