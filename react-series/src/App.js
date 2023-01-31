@@ -9,12 +9,14 @@ import "./App.css"
 // import Colorchange from "./Components/Colorchange"
 // import Forms from "./Components/Forms"
 // import {BroswerRouter, Route, Routes} from "react-router-dom"
-import {BrowserRouter,Route,Routes} from "react-router-dom"
-import Home from "./Pages/home";
-import Contact from "./Pages/contact";
-import About from "./Pages/about";
-import Error from "./Pages/Error";
+// import {BrowserRouter,Route,Routes} from "react-router-dom"
+// import Home from "./Pages/home";
+// import Contact from "./Pages/contact";
+// import About from "./Pages/about";
+// import Error from "./Pages/Error";
 
+import UseEffect from "./Hooks/UseEffect";
+import UseEffectCleanUp from "./Hooks/UseEffectCleanUp";
 function App() {
  
   return (
@@ -39,7 +41,7 @@ function App() {
   {/* <Colorchange/> */}
  {/* <Forms/>
  <Forms></Forms> */}
-      <BrowserRouter>
+      {/* <BrowserRouter>
         
           <Routes>
           <Route path="/" element={<Home/>}/>
@@ -50,7 +52,10 @@ function App() {
 
           </Routes>
         
-      </BrowserRouter>
+      </BrowserRouter> */}
+
+<UseEffect/>
+<UseEffectCleanUp/>
     </div>
   );
 }

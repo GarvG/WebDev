@@ -1,7 +1,9 @@
 import './App.css';
-import React, { Component } from 'react'
-import Forms from './Components/Forms';
-
+import React from 'react'
+import {BrowserRouter,Routes,Route} from "react-router-dom"
+import Home from './Page/Home';
+import About from './Page/About';
+import Profile from './Page/Profile';
 // import {StyledButton} from './Components/Button/Button.styles';
 // import { FancyButton } from './Components/Button/Button.styles';
 //import Example from './Components/Example';
@@ -11,17 +13,21 @@ import Forms from './Components/Forms';
 // import EffectSecond from './Components/EffectSecond';
 
 
-export class App extends Component {
-  render() {
-    return (
-      <div>
+function App () {
   
-      <Forms/>
-      <h1> REACT ROUTER </h1>
-      <p> Without refresing the page we navigate</p> 
+    return (
+      <BrowserRouter>
+      <div className='App'>
+        <h1>WELCOME TO ROUTING!!</h1>
+   <Routes>
+      <Route path='/' element={ <Home/>}/>
+      <Route path='/about' element={ <About/>}/>
+      <Route path='/profile' element={ <Profile/>}/>
+   </Routes>
       </div>
+      </BrowserRouter>
     )
-  }
+  
 }
 
 export default App
