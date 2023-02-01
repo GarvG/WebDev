@@ -14,11 +14,11 @@ import "./App.css"
 // import Contact from "./Pages/contact";
 // import About from "./Pages/about";
 // import Error from "./Pages/Error";
-
-import UseEffect from "./Hooks/UseEffect";
-import UseEffectCleanUp from "./Hooks/UseEffectCleanUp";
+// import UseEffect from "./Hooks/UseEffect";
+// import UseEffectCleanUp from "./Hooks/UseEffectCleanUp";
+import CompA from "./Hooks/UseContext/CompA";
 function App() {
- 
+  
   return (
     <div >
    {/* <Greetings/> */}
@@ -54,8 +54,9 @@ function App() {
         
       </BrowserRouter> */}
 
-<UseEffect/>
-<UseEffectCleanUp/>
+{/* <UseEffect/>
+<UseEffectCleanUp/> */}
+<CompA/>
     </div>
   );
 }
