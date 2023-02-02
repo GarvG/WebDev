@@ -4,6 +4,7 @@ import {BrowserRouter,Routes,Route} from "react-router-dom"
 import Home from './Page/Home';
 import About from './Page/About';
 import Profile from './Page/Profile';
+import Error from './Page/Error';
 // import {StyledButton} from './Components/Button/Button.styles';
 // import { FancyButton } from './Components/Button/Button.styles';
 //import Example from './Components/Example';
@@ -23,6 +24,7 @@ function App () {
       <Route path='/' element={ <Home/>}/>
       <Route path='/about' element={ <About/>}/>
       <Route path='/profile' element={ <Profile/>}/>
+      <Route path="*" element={<Error/>}/>
    </Routes>
       </div>
       </BrowserRouter>

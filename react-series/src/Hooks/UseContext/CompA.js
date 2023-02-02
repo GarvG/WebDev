@@ -9,7 +9,7 @@ const CompA = () => {
     <Biodata.Provider value={"GarG Sir!!"}>
     <CompB />
     </Biodata.Provider>
-    
+    <CompB />
   </>
   )
 }
