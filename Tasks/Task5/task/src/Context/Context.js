@@ -30,7 +30,8 @@ console.log(products)
    byFastDelivery:false,
    byRating:0,
    searchQuery:"", 
-   })
+   });
+   
   return (
    <Cart.Provider value={{state,dispatch,productstate,productdispatch}}>
      {children}
