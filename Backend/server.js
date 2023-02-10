@@ -51,6 +51,8 @@ app.post('/users',(req,res)=>{
     //console.log(Users);
 
 })
+
+
 app.patch('/users',(req,res)=>{
    // Users=req.body;
    let datatobeUpdated=req.body;
