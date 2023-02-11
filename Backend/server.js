@@ -19,13 +19,26 @@
 
 const express=require('express');
 const app=express();
-const router=express.Router();
+
 const checkURL=require('./api');
 app.use(express.json());
 
 let Users={};
+
 // app.use(checkURL);
 const PORT=5000;
+
+const Userrouter=express.Router();
+// base router , Router to use 
+app.use('/User',Userrouter);
+
+Userrouter
+.route('/')
+.get()
+.post()
+.patch()
+.delete()
+
 app.get('/home',((req,res)=>{
     // res.send("Home")
     res.sendFile('./views/home.html',{root:__dirname})
