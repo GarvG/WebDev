@@ -3,26 +3,14 @@
 // res.write("HW! sup");
 // res.end();
 // }).listen(5000);
-// let a=10;
-// let b=20;
 
-// console.log('Start');
-
-// setTimeout(()=>{
-//     console.log('middle');
-// },2000)
-
-// setTimeout(()=>{
-//     console.log('end');
-// },2000)
-// console.log(a+b);
 
 const express=require('express');
 const app=express();
 
 const checkURL=require('./api');
 app.use(express.json());
-
+const mongoose=require('mongoose');
 let Users={};
 
 // app.use(checkURL);
@@ -30,7 +18,23 @@ const PORT=5000;
 
 const Userrouter=express.Router();
 // base router , Router to use 
+
 app.use('/User',Userrouter);
+
+mongoose.set('strictQuery', true);
+const db_link='mongodb+srv://admin:admin1@cluster0.l5imyzb.mongodb.net/?retryWrites=true&w=majority';
+mongoose.connect(db_link)
+.then(function(db){
+console.log("DB CONNECTED!");
+})
+.catch(function(err){
+    console.error(err);
+})
+
+const userSchema=mongoose.Schema({
+    name:{}
+})
+
 
 Userrouter
 .route('/')
